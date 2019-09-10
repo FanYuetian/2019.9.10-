@@ -12,3 +12,25 @@
 七.逆波兰式就是后缀表达式，其求值过程可以用到栈来辅助存储：遇到数字先进栈，遇到符号弹出两个数字，运算后再进栈，直到全部弹出
 八.在具有2n个结点的完全二叉树中，叶子结点个数为n
 九.最小生成树代价一定是唯一的
+
+十.applet的方法：init()、start()、stop()、destroy()
+               init()：执行初始化任务
+               start()：程序开始执行的方法
+               stop()：停止执行，当含有该applet的web页被其他页代替时调用
+               destory()：收回applet程序的所有资源、即释放已分配给它的所有资源
+十一.运算
+     boolean b=true?false:true==true?false:true
+       boolean b=true?false: true==true ?false:true;
+      =boolean b=true?false: (true==true) ?false:true;
+      =boolean b=true?false:  true?false:true;
+      =boolean b=true?false:  (true?false:true);
+      =boolean b=true?false: false;
+      =boolean b=false;
+      [] ? true : false// 也就是
+      if([]){
+      return true;
+    }else {
+      return false;
+    }
+十二.final定义变量，不是必须要在定义的同时完成初始化，也可以在构造方法中完成初始化。
+十三.重写一个线程类，可以继承thread方法，然后override他的run方法，另一种方法是实现runnable接口，就实现了run方法，start只是启动一个线程的方法
