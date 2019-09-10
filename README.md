@@ -37,4 +37,10 @@
 
 十四.n0=n2+1，含有N个叶子结点的最优二叉树中共有n-1个分支结点
 十五.具有n个节点的完全二叉树的深度为log2n+1
-十六.
+
+十六.方法重载（参数表）
+十七.socket套接字：源IP地址、目标IP地址、源端口号、目标端口号组合
+     服务器端：serversocket提供实例serversocket server = new serversocket（端口号）
+     客户端：socket SOC = new socket(ip地址,端口号)
+十八.randomaccessfile可以通过seek（long POS）方法去移动文件指针进行追加更新写入
+十九.switch语句后的控制表达式只能是short、char、int、long整数类型和枚举类型，不能是float、double、boolean类型。string类型是1.7开始支持
